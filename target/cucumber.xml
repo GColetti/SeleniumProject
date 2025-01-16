@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="42.618">
+    <testcase classname="eBay Help &amp; Contact Link" name="Search input element exists" time="9.166">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+Then the Customer Service page should be displayed..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search eBay Help" name="Search input element exists" time="3.011">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+Then a search input element should be displayed.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search eBay Help" name="Search help topics with input" time="5.77">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+And a user enters text into the search input element........................passed
+Then search results will appear corresponding to the search input...........passed
+]]></system-out>
+    </testcase>
+    <testcase classname="eBay Help Article" name="Article title element exists" time="4.864">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+And a user enters text into the search input element........................passed
+And a user clicks on an specific help article...............................passed
+Then a help article will be displayed.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="eBay Help Article" name="Thumbs up element exists and is clickable" time="6.995">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+When a user enters text into the search input element.......................passed
+And a user clicks on an specific help article...............................passed
+Then a help article contain a thumbs up rating button.......................passed
+And a feedback text is displayed after clicking.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="eBay Related Help Topics" name="Related Help Topics are displayed and is clickable" time="5.309">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+And a user enters text into the search input element........................passed
+And a user clicks on an specific help article...............................passed
+Then a help article will be displayed.......................................passed
+And related help topics will be displayed...................................passed
+And a user can browse related help topics with next slide button............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="eBay Related Help Topics" name="Link back to help topic exists and is clickable" time="7.154">
+        <system-out><![CDATA[Given a user launches the browser...........................................passed
+And a user launches eBay web application....................................passed
+When a user clicks on the Help & Contact link...............................passed
+And a user enters text into the search input element........................passed
+And a user clicks on an specific help article...............................passed
+Then a help article contains a link back to the current help topic..........passed
+And a user can navigate back to the help topic by clicking the link text....passed
+]]></system-out>
+    </testcase>
+</testsuite>
